@@ -1,0 +1,58 @@
+<resources>
+
+	<!-- Base application theme. -->
+	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+		<!-- Customize your theme here. -->
+		<item name="colorPrimary">@color/colorPrimary</item>
+		<item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+		<item name="colorAccent">@color/colorAccent</item>
+	</style>
+	<style name="AppTheme.NoActionBar">
+		<item name="windowActionBar">false</item>
+		<item name="windowNoTitle">true</item>
+	</style>
+	<style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+	<style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+	<style name="ToolbarColoredBackArrow" parent="ThemeOverlay.AppCompat.ActionBar">
+		<item name="colorControlNormal">@color/colorTextPrimary</item>
+	</style>
+
+	<style name="MyTextViewStyle" parent="android:Widget.TextView">
+		<item name="android:textColor">@color/colorTextPrimary</item>
+	</style>
+
+	<style name="BottomToolbarHeading">
+		<item name="android:textColor">@color/colorTextPrimary</item>
+		<item name="android:textSize">18sp</item>
+	</style>
+	<style name="BoxShadow">
+		<item name="android:shadowColor">#000000</item>
+		<item name="android:shadowDx">-3</item>
+		<item name="android:shadowDy">-3</item>
+	</style>
+	<style name="HeadingLarge">
+		<item name="android:textColor">@color/colorTextPrimary</item>
+		<item name="android:textSize">24sp</item>
+	</style>
+	<style name="HeadingMedium">
+		<item name="android:textColor">@color/colorPrimaryDark</item>
+		<item name="android:textSize">16sp</item>
+	</style>
+	<style name="HeadingSmall">
+		<item name="android:textColor">@color/colorFeaturedMedium</item>
+		<item name="android:textSize">12sp</item>
+	</style>
+	<style name="ListStyle">
+		<item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+		<item name="android:padding">16dp</item>
+		<item name="android:background">@color/colorTextPrimary</item>
+	</style>
+
+	<style name="ListImage">
+		<item name="android:layout_width">64dp</item>
+		<item name="android:layout_height">64dp</item>
+	</style>
+
+
+</resources>
